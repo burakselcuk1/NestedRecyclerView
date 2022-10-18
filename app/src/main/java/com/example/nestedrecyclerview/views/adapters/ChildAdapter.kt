@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.nestedrecyclerview.R
 import com.example.nestedrecyclerview.models.ChildModel
@@ -28,6 +29,10 @@ class ChildAdapter(private val children : List<ChildModel>)
         val child = children[position]
         holder.imageView.setImageResource(child.image)
         holder.textView.text = child.title
+
+        holder.itemView.setOnClickListener {
+            Toast.makeText(it!!.context, "You Clicked", Toast.LENGTH_SHORT).show()
+        }
     }
 
 
