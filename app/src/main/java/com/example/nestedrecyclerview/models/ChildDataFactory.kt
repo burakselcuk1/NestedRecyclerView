@@ -7,7 +7,7 @@ object ChildDataFactory{
 
     private val random = Random()
 
-    private val titles =  arrayListOf( "Aviator", "Now you can See me", "God Father", "Mission Impossible", "3 idiots")
+    private val titles =  arrayListOf( "Aviator", "Now you can See me", "God Father", "Mission Impossible", "Burak baba")
 
     private fun randomTitle() : String{
         val index = random.nextInt(titles.size)
