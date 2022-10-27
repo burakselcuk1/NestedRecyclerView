@@ -1,6 +1,5 @@
 # NestedRecyclerView
 
-# Visible-Gone-SearchBar
 
 ![maxresdefault](https://user-images.githubusercontent.com/89164849/197049383-14347642-8895-430d-b458-5f9b64001722.jpeg)
 
